@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(168, 165, 169);
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem .5rem;
+}
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    
+}
+.navigation{
+    text-align: center;
+    
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+ul li{
+    list-style-type: none;
+
+}
+.container{
+    display: block;
+    margin: 4rem auto;
+}
+
+#output{
+    text-align: center;
+    margin: 2rem auto;
+    border: 1px solid green;
+    width: 20vw;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height:5vh;
+}
+input, label, button{
+    text-align: center;
+    padding: .2rem;
+    margin: .5rem auto;
+    text-align: center;
+    display: block;
+}
+label{
+    padding: 1rem;
+}
+.question-label{
+    display: flex;
+    flex-direction: row;    
+    width: max-content;
+    margin: 0 auto;
+
+}
+form{
+    text-align: center;
+}
