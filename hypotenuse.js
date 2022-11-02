@@ -13,7 +13,13 @@ function calculateSumOfSquares(a,b){
 function calculateHypotenuse(){
     const sumOfSquares = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
     const lengthOfHypotenuse = Math.sqrt(sumOfSquares); 
-    outputEl.innerText = "Hypotenuse length is " + lengthOfHypotenuse;
+
+    if ( ( Number(lengthOfHypotenuse) <= Number(sides[0].value))  || ( Number(lengthOfHypotenuse) <= Number(sides[1].value))){
+        outputEl.innerText = "Measurements cannot be negative or zero.";
+
+    } else {
+        outputEl.innerText = "Hypotenuse length is " + lengthOfHypotenuse;
+    }
     // console.log(lengthOfHypotenuse);
 
 }

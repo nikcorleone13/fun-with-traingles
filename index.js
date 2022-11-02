@@ -13,7 +13,7 @@ function isTriangle(){
     Number(inputs[2].value));
 
     if( sumOfAngles === 180){
-        outputEl.innerText = "yes it is a triangle";
+        outputEl.innerText = "Yes! It is a triangle";
     }else{
         outputEl.innerText = "Not a triangle";
     }
